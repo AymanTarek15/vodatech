@@ -1,0 +1,35 @@
+.row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 10px 10px;
+}
+
+.label {
+  font-weight: 700;
+  color: #111827;
+  min-width: 120px;
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255,255,255,.9);
+  border: 1px solid rgba(0,0,0,.10);
+  border-radius: 14px;
+  height: 44px;
+  padding: 0 12px;
+  box-shadow: 0 8px 18px rgba(0,0,0,.04);
+}
+
+.icon { opacity: .75; }
+
+.input {
+  border: 0;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  font-size: 16px;
+}

@@ -1,0 +1,60 @@
+.rows { display: flex; flex-direction: column; }
+
+.quotaRow {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 10px;
+  padding: 6px 0;
+}
+
+.quotaLabel {
+  color: #111827;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.quotaWrap { display: flex; flex-direction: column; gap: 6px; }
+
+.bar {
+  height: 14px;
+  border-radius: 999px;
+  background: #e5e7eb;
+  border: 1px solid rgba(0,0,0,.10);
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #16a34a 0%, #16a34a 65%, #ef4444 66%, #ef4444 100%);
+}
+
+.quotaText { font-size: 13px; color: #111827; font-weight: 700; }
+
+.pillOk {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #ecfdf5;
+  border: 1px solid rgba(22,163,74,.25);
+  color: #166534;
+  font-weight: 800;
+}
+
+.dotOk {
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  background: #16a34a;
+}
+
+.linkBtn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+  text-decoration: underline;
+  padding: 4px 6px;
+}

@@ -1,0 +1,17 @@
+.btn {
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,.12);
+  background: linear-gradient(180deg, #eef2ff, #f8fafc);
+  box-shadow: 0 10px 18px rgba(0,0,0,.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.btn:active { transform: translateY(1px); }
+.icon { opacity: .85; }
